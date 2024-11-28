@@ -1,3 +1,4 @@
+# Declare AWS provider for Terraform
 terraform {
   required_providers {
     aws = {
@@ -8,6 +9,8 @@ terraform {
   required_version = ">= 1.2.0"
 }
 
+# Configuration settings for AWS provider
 provider "aws" {
   region = "us-east-1"
 }
+
